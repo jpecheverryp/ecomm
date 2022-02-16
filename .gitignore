@@ -1,0 +1,11 @@
+# Modules
+node_modules
+
+# Prod
+dist
+
+#Enviroment
+.env
+
+# Misc
+.DS_Store
