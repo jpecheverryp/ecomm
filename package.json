@@ -6,7 +6,8 @@
   "scripts": {
     "server:dev": "cd server && npm run start:dev",
     "server:build": "cd server && npm run build",
-    "server:prod": "cd server && npm run start:prod"
+    "server:prod": "cd server && npm run start:prod",
+    "client:start": "cd client && npm run start"
   },
   "repository": {
     "type": "git",
