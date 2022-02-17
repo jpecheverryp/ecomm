@@ -7,7 +7,12 @@
     "server:dev": "cd server && npm run start:dev",
     "server:build": "cd server && npm run build",
     "server:prod": "cd server && npm run start:prod",
-    "client:start": "cd client && npm run start"
+    "client:start": "cd client && npm run start",
+    "client:build": "cd client && npm run build",
+    "start:dev": "concurrently \"npm run server:dev\" \"npm run client:start\" ",
+    "start:prod": "server:prod",
+    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev"
+  
   },
   "repository": {
     "type": "git",
@@ -19,5 +24,11 @@
   "bugs": {
     "url": "https://github.com/jpecheverryp/ecomm/issues"
   },
-  "homepage": "https://github.com/jpecheverryp/ecomm#readme"
+  "homepage": "https://github.com/jpecheverryp/ecomm#readme",
+  "devDependencies": {
+    "concurrently": "^7.0.0"
+  },
+  "dependencies": {
+    "if-env": "^1.0.4"
+  }
 }
