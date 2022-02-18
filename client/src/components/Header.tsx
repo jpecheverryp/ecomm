@@ -1,5 +1,6 @@
 import { Box, Container, HStack } from '@chakra-ui/react';
 import React from 'react';
+import HeaderMenu from './HeaderMenu';
 import Logo from './Logo';
 import Navbar from './Navbar';
 
@@ -19,9 +20,7 @@ const Header = () => {
       >
         <Navbar />
         <Logo />
-        <Box flex={1} mr={'auto'} textAlign='right'>
-          Menu
-        </Box>
+        <HeaderMenu />
       </Container>
     </Box>
   );
