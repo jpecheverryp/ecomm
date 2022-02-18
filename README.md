@@ -1,6 +1,6 @@
-# e-commerce Site
+# Tauro Site (e-commerce)
 
-Welcome to my ecommerce site repository, this is a project that I am building with the purpose of learning and practicing how to create a complex Full Stack Web Application from Scratch.
+Welcome to the Tauro site repository, this is a project that I am building with the purpose of learning and practicing how to create a complex Full Stack Web Application from Scratch.
 I will be using the projects section in this Github repo to set goals and tasks.
 
 ## Initial Stack
@@ -13,9 +13,15 @@ I will be using the projects section in this Github repo to set goals and tasks.
 
 - Sequelize: ORM (Object Relational Mapping). This tool is used to convert JSON syntax into SQL syntax.
 
-- MySQL: Realational Database
+- MySQL: Relational Database
 
 I will add more technologies and tools if necessary
+
+- Chakra UI: React Component Library
+
+## Progress
+
+- [February 17 / 2022](./doc/02-17-22.md)
 
 ## LISENCE
 
