@@ -8,7 +8,7 @@ interface NavLinkProps {
 }
 const NavRouterLink = ({ children, path }: NavLinkProps) => {
   return (
-    <Link as={RouterLink} to={path}>
+    <Link as={RouterLink} to={path} mr={4}>
       {children}
     </Link>
   );

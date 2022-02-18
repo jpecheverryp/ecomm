@@ -4,8 +4,8 @@ import React from 'react';
 
 const Logo = () => {
   return (
-    <Link as={RouterLink} to='/'>
-      <Heading fontFamily={' serif'} as='h1'>
+    <Link as={RouterLink} to='/' width={'auto'} flex={1}>
+      <Heading fontFamily={' serif'} as='h1' textAlign={'center'}>
         Tauro
       </Heading>
     </Link>

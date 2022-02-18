@@ -15,12 +15,10 @@ import MenuRouterLink from './MenuRouterLink';
 
 const Navbar = () => {
   return (
-    <Box>
+    <Box ml={'auto'} flex={1}>
       <Box display={{ base: 'none', md: 'flex' }} flexWrap={'wrap'}>
         <NavRouterLink path={'/women'}>Women</NavRouterLink>
         <NavRouterLink path={'/men'}>Men</NavRouterLink>
-        <NavRouterLink path={'/kids'}>Kids</NavRouterLink>
-        <NavRouterLink path={'/accesories'}>Accesories</NavRouterLink>
         <NavRouterLink path={'/shoes'}>Shoes</NavRouterLink>
       </Box>
       <Box display={{ base: 'inline-block', md: 'none' }}>
@@ -31,8 +29,6 @@ const Navbar = () => {
           <MenuList>
             <MenuRouterLink path={'/women'}>Women</MenuRouterLink>
             <MenuRouterLink path={'/men'}>Men</MenuRouterLink>
-            <MenuRouterLink path={'/kids'}>Kids</MenuRouterLink>
-            <MenuRouterLink path={'/accesories'}>Accesories</MenuRouterLink>
             <MenuRouterLink path={'/shoes'}>Shoes</MenuRouterLink>
           </MenuList>
         </Menu>
