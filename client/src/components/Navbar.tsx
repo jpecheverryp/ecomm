@@ -11,6 +11,7 @@ import {
 import { FaBars } from 'react-icons/fa';
 import React from 'react';
 import NavRouterLink from './NavRouterLink';
+import MenuRouterLink from './MenuRouterLink';
 
 const Navbar = () => {
   return (
@@ -28,21 +29,11 @@ const Navbar = () => {
             <Icon as={FaBars} />
           </MenuButton>
           <MenuList>
-            <MenuItem>
-              <NavRouterLink path={'/women'}>Women</NavRouterLink>
-            </MenuItem>
-            <MenuItem>
-              <NavRouterLink path={'/men'}>Men</NavRouterLink>
-            </MenuItem>
-            <MenuItem>
-              <NavRouterLink path={'/kids'}>Kids</NavRouterLink>
-            </MenuItem>
-            <MenuItem>
-              <NavRouterLink path={'/accesories'}>Accesories</NavRouterLink>
-            </MenuItem>
-            <MenuItem>
-              <NavRouterLink path={'/shoes'}>Shoes</NavRouterLink>
-            </MenuItem>
+            <MenuRouterLink path={'/women'}>Women</MenuRouterLink>
+            <MenuRouterLink path={'/men'}>Men</MenuRouterLink>
+            <MenuRouterLink path={'/kids'}>Kids</MenuRouterLink>
+            <MenuRouterLink path={'/accesories'}>Accesories</MenuRouterLink>
+            <MenuRouterLink path={'/shoes'}>Shoes</MenuRouterLink>
           </MenuList>
         </Menu>
       </Box>

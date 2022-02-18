@@ -5,7 +5,7 @@ import React from 'react';
 const Logo = () => {
   return (
     <Link as={RouterLink} to='/'>
-      <Heading fontFamily={' serif'} as='h1' px={2} py={1}>
+      <Heading fontFamily={' serif'} as='h1'>
         Tauro
       </Heading>
     </Link>
