@@ -1,4 +1,4 @@
-import { Box, Container, HStack } from '@chakra-ui/react';
+import { Box, Container } from '@chakra-ui/react';
 import React from 'react';
 import HeaderMenu from './HeaderMenu';
 import Logo from './Logo';
