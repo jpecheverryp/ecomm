@@ -14,9 +14,10 @@ const Header = () => {
         justifyContent={'center'}
         alignItems={'center'}
         flexWrap={'wrap'}
-        w={'100%'}
+        maxWidth={'80%'}
         bg={'brand.100'}
         zIndex={1}
+        color={'#222'}
       >
         <Navbar />
         <Logo />
